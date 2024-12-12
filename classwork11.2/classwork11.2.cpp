@@ -1,4 +1,4 @@
-﻿#include <locale.h>
+#include <locale.h>
 #include <iostream>
 using namespace std;
 
@@ -19,7 +19,7 @@ int main()
 template<typename T>
 T Abs(T num)
 {
-    T abs_num = num > 0 ? num : -num;
+     
 
-    return abs_num;
+    return num > 0 ? num : -num ;
 }
